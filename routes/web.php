@@ -16,6 +16,8 @@ use Inertia\Inertia;
 |
 */
 
+Route::view('/{path?}', 'layouts/app');
+
 require __DIR__.'/auth.php';
 
 Auth::routes();
